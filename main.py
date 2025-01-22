@@ -1,3 +1,7 @@
+from modules import strings, exceptions, modules_and_packages, miscellaneous
+from modules.oop import object_orientation
+
+
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -8,9 +12,16 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # modules_and_packages.execute()
+    #
+    # strings.execute()
+    #
+    # object_orientation.execute()
+    #
+    # exceptions.execute()
+    #
+    # miscellaneous.execute()
